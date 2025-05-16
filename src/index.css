@@ -4,4 +4,16 @@
 @theme {
   --font-poppins: "Poppins", sans-serif;
   --font-montserrat: "Montserrat", sans-serif;
+  --color-orange: #ff624c;
+  --color-black: #000;
+  --color-white: #ffffff;
+  --color-yellow: #fed550;
+  --color-purple: #1a237b;
+  --color-blue: #00579f;
+  --color-red: #bd0034;
+  --color-black01: #303030;
+  --color-white01: #d9d9d9;
+  --color-purple01: #283b82;
+  --color-blue01: #469bdb;
+  --color-white02: #f4f4f4;
 }
