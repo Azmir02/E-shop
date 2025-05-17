@@ -1,4 +1,3 @@
-import React from "react";
 import { CiLocationOn } from "react-icons/ci";
 import { IoCallOutline } from "react-icons/io5";
 
@@ -16,7 +15,7 @@ const NumberandAddress = () => {
             </p>
           </div>
         </div>
-        <div className="w-[1px] h-[32px] bg-black01"></div>
+        <div className="w-[1px] h-[32px] bg-black100"></div>
         <div className="flex items-center gap-x-2">
           <div>
             <IoCallOutline />
