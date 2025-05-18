@@ -12,7 +12,7 @@ const Topbar = () => {
               <NumberandAddress />
             </div>
             <div>
-              <SocialsWithLang/>
+              <SocialsWithLang />
             </div>
           </div>
         </Container>
