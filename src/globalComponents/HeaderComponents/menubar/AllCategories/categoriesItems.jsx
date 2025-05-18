@@ -10,7 +10,7 @@ export const categoriesItems = [
     label: (
       <Link
         to="/products"
-        className="font-montserrat font-normal text-base text-black01 flex items-center gap-x-2"
+        className="font-montserrat font-normal text-base text-black01 flex items-center gap-x-2 py-2"
       >
         <MdComputer color="FF624C" /> Computers & Tablets
       </Link>
@@ -24,7 +24,7 @@ export const categoriesItems = [
     label: (
       <Link
         to="/product"
-        className="font-montserrat font-normal text-base text-black01 flex items-center gap-x-2"
+        className="font-montserrat font-normal text-base text-black01 flex items-center gap-x-2 py-2"
       >
         <RxMobile color="FF624C" /> Mobile & Accessories
       </Link>
@@ -38,7 +38,7 @@ export const categoriesItems = [
     label: (
       <Link
         to="/product"
-        className="font-montserrat font-normal text-base text-black01 flex items-center gap-x-2"
+        className="font-montserrat font-normal text-base text-black01 flex items-center gap-x-2 py-2"
       >
         <FaTv color="FF624C" />
         TV & Home Theater
@@ -53,7 +53,7 @@ export const categoriesItems = [
     label: (
       <Link
         to="/product"
-        className="font-montserrat font-normal text-base text-black01 flex items-center gap-x-2"
+        className="font-montserrat font-normal text-base text-black01 flex items-center gap-x-2 py-2"
       >
         <FaHeadphones color="FF624C" /> Audio & Headphones
       </Link>
@@ -67,7 +67,7 @@ export const categoriesItems = [
     label: (
       <Link
         to="/product"
-        className="font-montserrat font-normal text-base text-black01 flex items-center gap-x-2"
+        className="font-montserrat font-normal text-base text-black01 flex items-center gap-x-2 py-2"
       >
         <IoCameraOutline color="FF624C" /> Cameras & Camcorders
       </Link>
@@ -81,7 +81,7 @@ export const categoriesItems = [
     label: (
       <Link
         to="/product"
-        className="font-montserrat font-normal text-base text-black01 flex items-center gap-x-2"
+        className="font-montserrat font-normal text-base text-black01 flex items-center gap-x-2 py-2"
       >
         <RiPlaystationFill color="FF624C" /> Gaming Equipment
       </Link>
@@ -95,7 +95,7 @@ export const categoriesItems = [
     label: (
       <Link
         to="/product"
-        className="font-montserrat font-normal text-base text-black01 flex items-center gap-x-2"
+        className="font-montserrat font-normal text-base text-black01 flex items-center gap-x-2 py-2"
       >
         <RiHome9Line color="FF624C" /> Home Appliances
       </Link>
