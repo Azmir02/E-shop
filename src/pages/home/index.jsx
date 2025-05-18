@@ -1,16 +1,16 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 import Container from "../../globalComponents/Container";
 
 const Home = () => {
-  const {t} = useTranslation()
+  const { t } = useTranslation();
   return (
     <>
       <Helmet>
         <title>Home</title>
       </Helmet>
       <Container>
-        <h1>{t('this_is_home_page')}</h1>
+        <h1>{t("this_is_home_page")}</h1>
       </Container>
     </>
   );
