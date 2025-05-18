@@ -1,16 +1,15 @@
 import { Helmet } from "react-helmet-async";
-import { useTranslation } from "react-i18next";
 import Container from "../../globalComponents/Container";
+import Banner from "./components/Banner";
 
 const Home = () => {
-  const { t } = useTranslation();
   return (
     <>
       <Helmet>
         <title>Home</title>
       </Helmet>
       <Container>
-        <h1>{t("this_is_home_page")}</h1>
+        <Banner />
       </Container>
     </>
   );
