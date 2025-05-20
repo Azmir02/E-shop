@@ -2,6 +2,8 @@ import { useTranslation } from "react-i18next";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 import Container from "../../../../globalComponents/Container";
+import ProductCard from "../../../../globalComponents/productCards";
+import { FeaturedProductsData } from "./featuredData";
 
 const FeaturedProducts = () => {
   const { t } = useTranslation();
@@ -21,6 +23,20 @@ const FeaturedProducts = () => {
               <HiArrowLongRight size={24} />
             </span>
           </Link>
+        </div>
+        <div className="grid grid-cols-5 gap-x-5 mt-[30px]">
+          {FeaturedProductsData?.map((product) => (
+            <ProductCard
+              key={product.id}
+              image={product?.image}
+              ratings={product.ratings}
+              pCategory={product.pCategory}
+              pName={product.pName}
+              totalRatings={product.totalRatings}
+              price={product.price}
+              pDiscount={product.discount}
+            />
+          ))}
         </div>
       </div>
     </Container>
