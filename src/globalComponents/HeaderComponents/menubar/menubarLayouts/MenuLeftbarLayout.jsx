@@ -7,7 +7,10 @@ const MenuLeftbarLayout = () => {
   return (
     <>
       <div className="flex items-center gap-x-20">
-        <AllCategoryMenu />
+        <AllCategoryMenu
+          isMenu={true}
+          className="font-montserrat font-bold text-base text-white cursor-pointer flex items-center gap-x-3"
+        />
         <Link
           to="/product"
           className="font-montserrat font-bold text-base text-white"
