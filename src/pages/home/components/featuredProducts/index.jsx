@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Container from "../../../../globalComponents/Container";
 import ProductCard from "../../../../globalComponents/productCards";
 import { FeaturedProductsData } from "./featuredData";
-import NextButton from "./nextButton";
+import NextButton from "./NextButton";
 import PrevButton from "./PrevButton";
 
 const FeaturedProducts = () => {
