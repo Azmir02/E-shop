@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Container from "../../../../globalComponents/Container";
+import NextButton from "../../../../globalComponents/NextButton";
+import PrevButton from "../../../../globalComponents/PrevButton";
 import ProductCard from "../../../../globalComponents/productCards";
 import { FeaturedProductsData } from "./featuredData";
-import NextButton from "./NextButton";
-import PrevButton from "./PrevButton";
 
 const FeaturedProducts = () => {
   const { t } = useTranslation();

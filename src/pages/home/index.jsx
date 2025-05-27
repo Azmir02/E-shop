@@ -4,6 +4,7 @@ import Banner from "./components/Banner";
 import FeaturedProducts from "./components/featuredProducts";
 import NewProducts from "./components/newProducts";
 import Overview from "./components/Overview";
+import SpringSale from "./components/springsale";
 import SupportSection from "./components/support";
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
         <Overview />
         <NewProducts />
       </Container>
+      <SpringSale />
     </>
   );
 };
