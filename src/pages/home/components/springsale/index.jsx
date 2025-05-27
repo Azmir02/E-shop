@@ -1,5 +1,5 @@
 import Container from "../../../../globalComponents/Container";
-import SpringLeft from "./springLeft";
+import SpringLeft from "./SpringLeft";
 import SpringRight from "./SpringRight";
 
 const SpringSale = () => {
