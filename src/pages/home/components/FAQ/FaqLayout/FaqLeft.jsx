@@ -1,19 +1,19 @@
 import { Collapse } from "antd";
+import { FaqData } from "../FaqData";
 
 const FaqLeft = () => {
   return (
     <>
-      <Collapse
-        size="small"
-        rootClassName="custom-collapse"
-        items={[
-          {
-            key: "1",
-            label: "This is small size panel header",
-            children: <p>hello world</p>,
-          },
-        ]}
-      />
+      <div>
+        {FaqData.map((item) => (
+          <Collapse
+            key={item.key}
+            size="small"
+            rootClassName="custom-collapse"
+            items={[item]}
+          />
+        ))}
+      </div>
     </>
   );
 };

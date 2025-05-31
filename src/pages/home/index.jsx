@@ -8,6 +8,7 @@ import NewProducts from "./components/newProducts";
 import Overview from "./components/Overview";
 import SpringSale from "./components/springsale";
 import SupportSection from "./components/support";
+import TechTalks from "./components/techTalks";
 
 const Home = () => {
   return (
@@ -27,6 +28,9 @@ const Home = () => {
         <BestSeller />
       </Container>
       <FaqSection />
+      <Container>
+        <TechTalks />
+      </Container>
     </>
   );
 };

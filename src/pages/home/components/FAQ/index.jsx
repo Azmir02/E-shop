@@ -6,7 +6,7 @@ const FaqSection = () => {
   return (
     <section className="bg-white02 py-16 mt-20">
       <Container>
-        <div className="grid grid-cols-[2fr_1fr] gap-x-4">
+        <div className="grid grid-cols-[2fr_1fr] gap-x-9">
           <FaqLeft />
           <FaqRight />
         </div>
