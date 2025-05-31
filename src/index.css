@@ -24,3 +24,32 @@
   border: none !important;
   box-shadow: none !important;
 }
+
+.custom-collapse {
+  background-color: white !important;
+  border: none !important;
+  padding: 10px !important;
+}
+
+.custom-collapse .ant-collapse-content {
+  border-top: none !important;
+}
+
+.custom-collapse .ant-collapse-header {
+  display: flex !important;
+  align-items: center !important;
+  column-gap: 32px !important;
+}
+
+.custom-collapse .ant-collapse-expand-icon {
+  width: 32px !important;
+  height: 32px !important;
+  padding-inline-end: 0 !important;
+  background-color: #ff624c !important;
+  border-radius: 50% !important;
+  justify-content: center !important;
+}
+
+.custom-collapse .ant-collapse-header[aria-expanded="true"] {
+  background-color: red !important;
+}

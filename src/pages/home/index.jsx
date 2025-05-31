@@ -1,6 +1,8 @@
 import { Helmet } from "react-helmet-async";
 import Container from "../../globalComponents/Container";
 import Banner from "./components/Banner";
+import BestSeller from "./components/bestseller";
+import FaqSection from "./components/FAQ";
 import FeaturedProducts from "./components/featuredProducts";
 import NewProducts from "./components/newProducts";
 import Overview from "./components/Overview";
@@ -21,6 +23,10 @@ const Home = () => {
         <NewProducts />
       </Container>
       <SpringSale />
+      <Container>
+        <BestSeller />
+      </Container>
+      <FaqSection />
     </>
   );
 };
